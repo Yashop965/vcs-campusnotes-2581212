@@ -29,3 +29,11 @@ fix: correct the VCS due-date in the notes file
 - Title: same conventional prefix as the main commit.
 - Description: what changed, why, and a link to the issue it fixes.
 - Self-review: re-read the diff before asking for a review.
+
+## Pull-request review checklist
+Before requesting review, tick each item:
+- [ ] One logical change per PR
+- [ ] Conventional-commit messages (feat/fix/docs/refactor/chore)
+- [ ] Self-reviewed the diff
+- [ ] Linked the related issue
+- [ ] Tests (if any) pass
